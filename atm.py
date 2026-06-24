@@ -22,7 +22,7 @@ def mini_atm():
         print("1. Check Balance")
         print("2. Deposit Money")
         print("3. Withdraw Money")
-        print("4. Check Balance")
+        print("4. Change PIN")
         print("5. Mini Statement")
         print("6. Exit")
         
@@ -56,6 +56,7 @@ def mini_atm():
                 amount = float(input("Enter amount to withdraw: ₹"))
             except ValueError:
                 print("Invalid Amount !")
+                continue
             
 
             if amount <= balance:
