@@ -39,6 +39,3 @@ python atm.py
 * Add multiple user accounts
 * Use a database for persistent storage
 * Create a graphical user interface (GUI)
-
-
-Your Name
