@@ -6,7 +6,7 @@ mini_statement = []
 
 #Function for checking PIN
 def check_pin():
-    input_pin = input("ENter your PIN: ")
+    input_pin = input("Enter your PIN: ")
     if input_pin == pin:
         print("Login Successfull!!!")
         return True
@@ -24,7 +24,7 @@ def mini_atm():
         print("3. Withdraw Money")
         print("4. Change PIN")
         print("5. Mini Statement")
-        print("6. Exit")
+        print("6. Exit\n")
         
         try:
             option = int(input("Enter your option: "))
@@ -98,7 +98,7 @@ def mini_atm():
                 print("Incorrect OLD PIN")
 
         elif option == 6:
-            print("Thank you for usinf our ATM service")
+            print("Thank you for using our ATM service")
             print("Exiting System ...")
             break
 
